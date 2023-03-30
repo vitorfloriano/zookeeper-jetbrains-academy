@@ -1,3 +1,5 @@
 fun main() {
-    // write your code here
+    val num = readln().toInt()
+    val char = readln().first()
+    println(num == char.toInt())
 }
