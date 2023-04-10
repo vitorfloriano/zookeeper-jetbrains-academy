@@ -1,5 +1,9 @@
-// You can experiment here, it won’t be checked
-
-fun main(args: Array<String>) {
-  // put your code here
+fun main() {
+  var sum = 0
+  var num = readln()!!.toInt()
+  while (num != 0) {
+    sum += num
+    num = readln()!!.toInt()
+  }
+  println(sum)
 }
